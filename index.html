@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: rgb(255, 255, 255)">HUNTER</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#" style="color: rgb(255, 255, 255)">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#container" style="color: rgb(255, 255, 255)">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="color: rgb(255, 255, 255)">
+              Service
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#service">Web Development</a></li>
+              <li><a class="dropdown-item" href="#service">App Development</a></li>
+
+              <li><a class="dropdown-item" href="#service">Game Development</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#contact" style="color: rgb(255, 255, 255)">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- crausel section  -->
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Web Developemt</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <button type="button" class="btn btn-primary"> <a class="internal" href="#service"> Web Development</a></button>
+          <button type="button" class="btn btn-danger"><a class="internal" href="#service"> App Development</a></button>
+          <button type="button" class="btn btn-success"><a class="internal" href="#service">Game Development</a></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/2.jpg" velop class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>App Developemt</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <button type="button" class="btn btn-primary"> <a class="internal" href="#service"> Web Development</a></button>
+          <button type="button" class="btn btn-danger"><a class="internal" href="#service"> App Development</a></button>
+          <button type="button" class="btn btn-success"><a class="internal" href="#service">Game Development</a></button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./img/4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Game Developemt</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <button type="button" class="btn btn-primary"> <a class="internal" href="#service"> Web Development</a></button>
+          <button type="button" class="btn btn-danger"><a class="internal" href="#service"> App Development</a></button>
+          <button type="button" class="btn btn-success"><a class="internal" href="#service">Game Development</a></button>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- contact us -->
+  <div class="social" id="contact">
+    <h2>Contact US</h2>
+    <button class="icon-btn twitter"> 
+    <a class="link" href="https://twitter.com/" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    </button>
+    <button class="icon-btn facebook"> 
+    <a class="link" href="https://www.facebook.com/" target="_blank">
+      <i class="fa fa-facebook"></i> 
+    </a>
+    </button>
+   
+   
+
+    <button class="icon-btn instagram"> 
+    <a class="link" href="https://www.instagram.com/"  target="_blank">
+      <i class="fa fa-instagram"></i>
+    </a>
+    </button>
+    <button class="icon-btn github"> 
+    <a class="link" href="https://github.com/" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+    </button>
+  </div>
+
+ <!-- about us -->
+ <div class="container" id="container">
+  <h2 class="xd">About us</h2>
+  <p>
+    We are a digital transformation consultancy and engineering company that delivers cutting edge solutions for global organisations and technology startups. Since 2007 we have been helping companies and established brands reimagine their business through digitalisation.
+  </p>
+  <h3 class="xd">MISSION & VISION</h3>
+  <p>Our mission is to help enterprises accelerate adoption of new technologies, untangle complex issues that always emerge during digital evolution, and orchestrate ongoing innovation. Whether it is a consumer-oriented app or a transformative enterprise-class solution, the company leads the process from ideation and concept to delivery, and provides ongoing support through its IS360 framework.</p>
+ </div>
+
+
+
+
+
+  <!-- service detaial -->
+  <div class="main" id="service">
+    <h2 class="h2">OUR SERVICES</h2>
+    <div class="service">
+      <div class="service-topic">
+        <h3 class="topic">app Development</h3>
+        <p class="detail">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam beatae dignissimos dolorem nesciunt expedita. Necessitatibus exercitationem voluptas pariatur, fuga, minus corrupti voluptatem quas voluptate accusantium atque quia autem quod mollitia!</p>
+        <button type="button" class="btn btn-outline-danger">Read More</button>
+      </div>
+      <div class="service-topic">
+        <h3 class="topic">web development</h3>
+        <p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nulla tenetur omnis, voluptatum delectus id, labore nesciunt distinctio et mollitia voluptatem consectetur deserunt autem explicabo provident, natus rem quisquam fuga.</p>
+        <button type="button" class="btn btn-outline-primary">Read More</button>
+      </div>
+      <div class="service-topic">
+        <h3 class= "topic">game development</h3>
+        <p class="detail">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit recusandae similique impedit cum dicta, nam facere in ut quidem nobis quo, quos voluptatibus repudiandae eum et cumque. Iusto, voluptates eligendi!</p>
+        <button type="button" class="btn btn-outline-success text-center">Read More</button>
+      </div>
+    </div>
+  </div>
+  
+  
+<!-- footer  -->
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  <div class="col-md-4 d-flex align-items-center">
+    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <span class="mb-3 mb-md-0 text-muted">© 2022 HUNTER, Inc. All rights reserved.</span>
+  </div>
+  
+  
+</footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

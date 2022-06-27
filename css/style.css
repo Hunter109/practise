@@ -1,0 +1,196 @@
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    color: #FFFFFF;
+}
+.nav-link:hover{
+color: red !important;
+}
+.carousel-caption {
+    color: greenyellow;
+}
+.carousel-caption:hover{
+    color: white;
+    transition: ease-in-out 2s;
+    cursor: crosshair;
+}
+.dropdown-menu{
+    background-color:#212529;
+}
+.dropdown-item:hover{
+    border-radius: 50%;
+    color: greenyellow;
+    background-color: black;
+}
+
+.dropdown-item{
+    color: red;
+}
+.container{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background:#42424214;
+    border-radius: 5px;
+}
+.h2{
+   
+/* padding: 50px; */
+    text-align: center;
+  /* margin-top: 20px; */
+ 
+}
+.xd:hover{
+    color:gray;
+    text-decoration: underline rgba(20,118,242,.8);
+    cursor: pointer;
+}
+.h2:hover{
+   color:gray;
+    text-decoration: underline rgba(20,118,242,.8);
+    cursor: pointer;
+
+}
+.main{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background:#42424214;
+    border-radius: 5px;
+    margin: 30px;
+   
+}
+
+.service{
+    display: flex ;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background:#42424214;
+    border-radius: 5px; */
+
+}
+.service-topic{
+    /* border: solid red; */
+    height: 50vh;
+    width: 30vw;
+    margin: 0px 0px 3px;
+    margin-right: 3px;
+    padding: 31px 20px 0px 0px;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+
+     
+    color: rgba(50,50,50,.8);
+}
+.service-topic:hover{
+    background-color: rgba(20,118,242,.8);
+    color: #fff;
+}
+.topic{
+    text-align: center;
+}
+.detail{
+    text-align: center;
+    margin: 0px 0px 12px;
+}
+
+
+
+
+/* icon  */
+.social {
+   margin:60px;
+	/* width: 100%; */
+	text-align: center;
+	padding: 50px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    background:#42424214;
+    border-radius: 5px; 
+}
+
+.social h2 {
+	color: #86a5d6;
+	font-size: 40px;
+    margin: 30px;
+    cursor: pointer;
+	
+}
+.social h2:hover{
+    color:  rgba(20,118,242,.8);
+}
+
+[class^="icon-btn"] /*.icon-btn*/ {
+	height: 75px;
+	width: 75px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 40px;
+	line-height: 75px;
+	transition: ease-in-out .3s;
+	border-radius: 50px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+
+.twitter {
+	color: #4099FF;
+}
+
+.facebook {
+	color: #3B5998;
+}
+
+
+.instagram {
+	color: #df1289;
+}
+
+.github {
+	color: #4183C4;
+}
+
+.icon-btn:hover {
+	transform: scale(1.10);	
+	color: #FFFFFF;
+}
+
+.twitter:hover {
+	background-color: #4099FF;	
+}
+
+.facebook:hover {
+	background-color: #3B5998;	
+}
+
+
+.instagram:hover {
+	background-color: #ee087b;	
+}
+
+.github:hover {
+	background-color: #4183C4;	
+}
+
+a.link {
+	color: inherit;	
+}
+@media screen and (max-width: 788px) {
+.service{
+    display: block;
+}
+.main{
+    width:90%;
+    height: 110vh;
+}
+.service-topic{
+    font-size: 14px;;
+    width: 85vw;
+    height: auto;
+    margin :12px;
+}
+}
